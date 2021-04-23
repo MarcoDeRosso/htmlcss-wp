@@ -48,10 +48,35 @@ li{
     color: #b2b2b2;
     font-size: 18px;
 }
+
 .main-img{
     height: 500px;
-    background: #e1d67a;
+    background: url(../img/banner.jpg);
     margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+
+
+.main-img img{
+    width: 100%;
+    height: auto;
+}
+
+.main-text{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+    padding: 300px 500px 40px 30px;
+}
+
+.main-text > h2{
+    font-size: 30px;
 }
 
 .article-conteiner{
