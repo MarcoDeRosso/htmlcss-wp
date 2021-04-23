@@ -20,6 +20,8 @@
     margin: 0 auto;
 }
 
+/* inizio header + nav  */
+
 header{
     height: 150px;
     margin:30px 0 30px;
@@ -48,6 +50,8 @@ li{
     color: #b2b2b2;
     font-size: 18px;
 }
+
+/* inizio sezione banner */
 
 .main-img{
     height: 500px;
@@ -79,6 +83,22 @@ li{
     font-size: 30px;
 }
 
+/* inizio sezione articoli */
+
+.article-header{
+    height: 75px;
+}
+
+.article-header > h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.article-header > span{
+    font-size: 16px;
+    color: #b0b0b0;
+}
+
 .article-conteiner{
     background: #0086ff;
     margin-bottom: 15px;
@@ -89,34 +109,46 @@ li{
     height: 800px;
 }
 
-.article-header{
-    height: 75px;
-    background: #abcfe7;
-}
 
-.side-article1{
-    width: calc(25% - 10px);
-    margin-right: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+/* .layover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(203, 203, 203, 0.5);
+    border-radius: 20px; */
 
-.main-article{
-    width: calc(50% - 20px);
-    margin:0 10px 0 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.side-article2{
-    width: calc(25% - 10px);
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 10px;
-
-}
+ .side-article1{
+        width: calc(25% - 10px);
+        margin-right: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .main-article{
+        width: calc(50% - 20px);
+        margin:0 10px 0 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .side-article2{
+        width: calc(25% - 10px);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    
+    }
+/* inizio footer */
 
 footer{
-    background: #8801fe;
     height: 50px;
+    text-align: center;
+}
+
+.author{
+    font-size: 20px;
+}
+
+.author::after{
+    content: ' \2665';
+    color: red;
 }
