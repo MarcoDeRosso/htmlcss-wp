@@ -95,26 +95,26 @@ li{
 }
 
 .article-header > span{
-    font-size: 16px;
+    font-size: 20px;
     color: #b0b0b0;
 }
 
-.article-conteiner{
-    margin-bottom: 15px;
+.article-conteiner, .articletext-conteiner{
+    margin-bottom: 30px;
 }
 
-/* .layover{
+.layover{
     width: 100%;
     height: 100%;
-    background-color: rgba(203, 203, 203, 0.5);
-    border-radius: 20px; */
+    background-color: rgba(203, 203, 203, 0.3);
+    border-radius: 20px;
+}
 
 .side-article1{
     width: calc(25% - 10px);
     height: 200px;
     margin-right: 10px;
     margin-top: 30px;
-    margin-bottom: 30px;
     background-image: url(../img/img-1.jpg);
     background-repeat: no-repeat;
     background-repeat: no-repeat;
@@ -129,7 +129,6 @@ li{
     height: 200px;
     margin:0 10px 0 10px;
     margin-top: 30px;
-    margin-bottom: 30px;
     background-image: url(../img/banner-2.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -141,7 +140,6 @@ li{
     width: calc(25% - 10px);
     height: 200px;
     margin-top: 30px;
-    margin-bottom: 30px;
     margin-left: 10px;
     background-image: url(../img/img-3.jpg);
     background-repeat: no-repeat;
@@ -152,23 +150,26 @@ li{
 
 .text-article1{
     width: calc(25% - 10px);
-    height: 200px;
     margin-right: 10px;
-    margin-bottom: 30px;
 }
 
 .text-article{
     width: calc(50% - 20px);
-    height: 200px;
     margin:0 10px 0 10px;
-    margin-bottom: 30px;
 }
 
 .text-article2{
     width: calc(25% - 10px);
-    height: 200px;
-    margin-bottom: 30px;
     margin-left: 10px;
+}
+
+.articletext-conteiner h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.articletext-conteiner p {
+    font-size: 18px;
 }
 
 
@@ -185,5 +186,6 @@ footer{
 
 .author::after{
     content: ' \2665';
+    font-size: 30px;
     color: red;
 }
