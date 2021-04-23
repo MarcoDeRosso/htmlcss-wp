@@ -100,15 +100,8 @@ li{
 }
 
 .article-conteiner{
-    background: #0086ff;
     margin-bottom: 15px;
 }
-
-.article-conteiner > div{
-    background: #abcfe7;
-    height: 800px;
-}
-
 
 /* .layover{
     width: 100%;
@@ -116,27 +109,69 @@ li{
     background-color: rgba(203, 203, 203, 0.5);
     border-radius: 20px; */
 
- .side-article1{
-        width: calc(25% - 10px);
-        margin-right: 10px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+.side-article1{
+    width: calc(25% - 10px);
+    height: 200px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
     
-    .main-article{
-        width: calc(50% - 20px);
-        margin:0 10px 0 10px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+.main-article{
+    width: calc(50% - 20px);
+    height: 200px;
+    margin:0 10px 0 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(../img/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
     
-    .side-article2{
-        width: calc(25% - 10px);
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 10px;
-    
-    }
+.side-article2{
+    width: calc(25% - 10px);
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    background-image: url(../img/img-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.text-article1{
+    width: calc(25% - 10px);
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.text-article{
+    width: calc(50% - 20px);
+    height: 200px;
+    margin:0 10px 0 10px;
+    margin-bottom: 30px;
+}
+
+.text-article2{
+    width: calc(25% - 10px);
+    height: 200px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+
+
+
 /* inizio footer */
 
 footer{
